@@ -28,7 +28,11 @@ body {
     min-height: 100vh;
     color: var(--text-dark-color);
     background-color: var(--bg-dark-color);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
 }
+
 
 .main {
     display: flex;
@@ -53,6 +57,28 @@ body {
     color: var(--text-dark-subtext-color)
 }
 
+/* Navigation Bar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background: #222;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.nav a {
+    color: var(--text-highlight);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+}
+
+.nav a:hover {
+    background: #555;
+	color: var(--text-highlight);
+    border-radius: 4px;
+}
+
 a, .text-highlight {
     color: var(--text-highlight);
     text-decoration: none;
@@ -64,6 +90,51 @@ a, .text-highlight {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Headings */
+h1, h3 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+/* Lists */
+ol, ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+b {
+    color: #c792ea;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: #666;
+    margin-top: 20px;
 }
 
 
